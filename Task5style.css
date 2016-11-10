@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-body{
+	background-color: #DEDEDE;	
+}
+
+.header{
+	background-color: #333333;
+	height: 60px;
+}
+
+.header-logo{
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	margin-left: 30px;
+}
+.header-nav{
+	float: right;
+	margin:15px ;
+}
+
+.header-nav  .header-item {
+	float: left;
+	margin-left: 15px;
+	}
+.header-nav a{
+	font-family: arial;
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+}
+.header-nav a:hover {
+	color:#808080;
+	}
+.side-page{
+	float: right;	
+	position: absolute;
+	top: 70px;
+	right: 15px;
+	width: 360px;
+	height: 500px;
+	background-color: white;
+	border-bottom: solid  #9F9F9F;
+	border-right: solid  #9F9F9F;	
+}
+.left-page{
+	float: left;	
+	margin-right:380px;	
+}
+
+
+.body-page{
+	margin: 10px;
+	background-color: white;
+	border-bottom: solid  #9F9F9F ;
+	border-right: solid  #9F9F9F ;
+}
+
+
+
+.footer{
+	clear: both;
+	margin: 15px;
+	padding: 5px;
+	height: 40px;
+	background-color: #000000;
+	text-align: center;	
+}
+
+.footer a{
+	font-family: "微软雅黑" ;
+	color: white;
+	font-size: small;	
+}
+
+.first-item {
+	margin-top: 10px;
+	font-style: normal;
+	font-family: "黑体";
+	font-size: larger;
+}
+
+
+.first-item {
+	padding: 10px;
+	font-style: normal;
+	font-family: "黑体";
+	font-size: larger;
+}
+
+
+.second-item{
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: "黑体";
+	color: #59645E;
+	font-size: small;
+}
+
+.author-time
+{ 
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: "黑体";
+	font-size: x-small;
+	color: #59645E;
+}
+
+.first-article , .second-article  {
+	text-indent: 2em;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 2em;
+}
+
+.pic-title{
+	font-family: "微软雅黑";
+	font-size: larger;
+	text-align: left;
+}
+
+.pic-group .hashiqi {
+	border: solid 1px #000000;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+}
+.pic-group img{
+	display: block;
+	margin: 10px;
+}
+.pic-group .hashiqi {
+	margin: 10px;
+	text-align: center;
+}
+
+.paiming li
+{
+	list-style: decimal;
+	text-indent: 2em;
+}
+.body-page .last-table p{
+	font-family: "微软雅黑";
+}
+
+
+.body-page .last-table table{
+	width: 100%;
+	border-collapse:collapse
+	
+}
+
+.body-page .last-table{
+	margin: 10px;
+}
+.body-page .last-table tr th{
+	background-color: #323232;
+	color: wheat;
+}
+.body-page .last-table tr td{
+	font-family: "微软雅黑";
+}
+.body-page .last-table tfoot
+{
+	background-color: #CCCCCC;
+}
